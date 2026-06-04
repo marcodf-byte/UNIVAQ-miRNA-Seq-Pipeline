@@ -130,5 +130,14 @@ This project was carried out in collaboration by the following students:
 
 ---
 
+## 📚 References
+1. **Biostars**: Bioinformatics resource thread. [https://www.biostars.org/p/9539851/](https://www.biostars.org/p/9539851/) (Accessed: 2024-07-02).
+2. **Mitchell, P. S., Parkin, R. K., et al.** (2008). *Circulating microRNAs as stable blood-based markers for cancer detection*. Proceedings of the National Academy of Sciences, 105(30), 10513-10518.
+3. **Neurobioinfo**: miRNA workflow. [https://github.com/neurobioinfo/miRNA_workflow](https://github.com/neurobioinfo/miRNA_workflow) (Accessed: 2024-07-02).
+4. **Potla, P., Ali, S. A., & Kapoor, M.** (2021). *A bioinformatics approach to microRNA-sequencing analysis*. Osteoarthritis and Cartilage Open, 3(1), 100131.
+5. **Xia, L., Guo, H., et al.** (2023). *Human circulating small non-coding RNA signature as a non-invasive biomarker in clinical diagnosis of acute myeloid leukaemia*. Theranostics, 13(4), 1289.
+
+---
+
 ## ⚖️ License
 This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
