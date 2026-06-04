@@ -1,0 +1,19 @@
+name: bioinfo_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - cutadapt
+  - bowtie2
+  - samtools
+  - umi_tools
+  - qualimap
+  - r-base=4.2
+  - r-tidyverse
+  - r-reshape2
+  - r-pheatmap
+  - r-rcolorbrewer
+  - bioconductor-deseq2

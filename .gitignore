@@ -1,0 +1,25 @@
+# File di sistema e temporanei
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+
+# Ignora dati NGS grezzi e intermedi (FASTQ, SAM, BAM, BAI)
+data/
+
+# Ignora le referenze e indici genomici locali
+reference/hg38/
+reference/miRBase/
+annotation_files/
+
+# Ignora i report intermedi e di controllo qualità
+results/fastqc_reports/
+results/multiqc_reports/
+results/alignment_reports/
+
+# Mantieni esplicitamente le cartelle dei risultati finali counts e DEA
+!results/counts/
+!results/DEA/
