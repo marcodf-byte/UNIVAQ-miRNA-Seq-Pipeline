@@ -6,7 +6,7 @@
 [![Python Version](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/)
 [![R Version](https://img.shields.io/badge/R-4.2-blue.svg)](https://www.r-project.org/)
 
-This project was developed as part of the **Bioinformatics** exam at the **University of L'Aquila (UNIVAQ)**.
+This project was developed as part of the **Bioinformatics** exam (Academic Year 2023/2024) at the **University of L'Aquila (UNIVAQ)**.
 
 The bioinformatics pipeline automates the preprocessing, alignment, and differential statistical analysis of miRNA sequencing data. The workflow integrates quality control, UMI extraction, sequential double alignment (against the miRBase database and the hg38 reference genome), and the study of differential gene regulation (DEA) between different biological conditions.
 
