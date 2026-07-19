@@ -127,7 +127,7 @@ Upon execution, the pipeline dynamically creates a `results/` directory containi
 - **Count Matrices**: Raw and merged counts under `results/counts/`.
 - **Differential Expression Analysis (DEA)**: Output plots (heatmap, MA-plots) and differential CSV files saved under `results/DEA/`.
 
-*Note: The `results/` folder is excluded from Git tracking to keep the repository lightweight. To view how the pipeline worked in our specific biological context, please refer to the complete report below.*
+*Note: The `results/` folder is excluded from Git tracking. To view how the pipeline worked in our specific biological context, please refer to the report below.*
 
 ### Academic Material and Exam Reports
 * 📄 **Complete Report**: [Report.pdf](Report.pdf) — Theoretical details, biological methodology, and discussion of results.
