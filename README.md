@@ -110,7 +110,13 @@ Alternatively, you can run individual modules in order:
 > [!WARNING]
 > The primary goal of this project is the design, implementation, and execution of the bioinformatics pipeline itself. The generated biological results (differential expression, heatmap, etc.) have not undergone scientific validation or review, and should not be taken as a direct reference or clinical/scientific truth.
 
-The differential expression analysis (DEA) performed on the samples generated the final plots and tables saved in `results/DEA/`.
+Upon execution, the pipeline dynamically creates a `results/` directory containing all outputs:
+- **Quality Control Reports**: Located under `results/fastqc_reports/` and `results/multiqc_reports/`.
+- **Alignment Statistics**: Reports generated under `results/alignment_reports/`.
+- **Count Matrices**: Raw and merged counts under `results/counts/`.
+- **Differential Expression Analysis (DEA)**: Output plots (heatmap, MA-plots) and differential CSV files saved under `results/DEA/`.
+
+*Note: The `results/` folder is excluded from Git tracking to keep the repository lightweight. To view details on the expected output and biological analysis, please refer to the complete report below.*
 
 ### Academic Material and Exam Reports
 * 📄 **Complete Report**: [Report.pdf](Report.pdf) — Theoretical details, biological methodology, and discussion of results.

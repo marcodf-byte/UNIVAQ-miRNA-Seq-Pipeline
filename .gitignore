@@ -15,11 +15,5 @@ reference/hg38/
 reference/miRBase/
 annotation_files/
 
-# Ignora i report intermedi e di controllo qualità
-results/fastqc_reports/
-results/multiqc_reports/
-results/alignment_reports/
-
-# Mantieni esplicitamente le cartelle dei risultati finali counts e DEA
-!results/counts/
-!results/DEA/
+# Ignora tutti i risultati generati dalla pipeline
+results/
