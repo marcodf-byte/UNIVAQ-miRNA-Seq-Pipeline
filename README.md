@@ -112,11 +112,6 @@ Alternatively, you can run individual modules in order:
 
 The differential expression analysis (DEA) performed on the samples generated the final plots and tables saved in `results/DEA/`.
 
-### Expression Heatmap of Top 50 miRNAs
-The heatmap shows the hierarchical clustering profile of the top 50 most variable miRNAs across the different conditions (`BRCA`, `non-BRCA`, `Control`):
-
-![Results Heatmap](results/DEA/high_resolution_heatmap.png)
-
 ### Academic Material and Exam Reports
 * 📄 **Complete Report**: [Report.pdf](Report.pdf) — Theoretical details, biological methodology, and discussion of results.
 
