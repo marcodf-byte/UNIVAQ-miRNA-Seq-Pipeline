@@ -12,6 +12,20 @@ The bioinformatics pipeline automates the preprocessing, alignment, and differen
 
 ---
 
+## 🧬 Biological Context & Dataset
+This pipeline was designed to analyze small RNA-seq data from breast cancer patients and healthy controls. The cohort consists of three sample conditions:
+- **BRCA**: Patients diagnosed with breast cancer.
+- **non-BRCA**: Patients with hereditary breast cancer cases who do not carry BRCA mutations.
+- **Control**: Healthy individuals.
+
+### Why 3 Run Folders?
+In the `data/raw/` folder, the input FASTQ reads are organized into three subdirectories: **`Run1`**, **`Run2`**, and **`Run3`**. This structure mirrors the **three separate technical runs (sequencing batches)** in which the samples were processed. Organizing raw data by run is key to:
+- Track and potentially adjust for **batch effects** during statistical analysis.
+- Maintain experimental traceability of the samples.
+- Process quality control (FastQC/MultiQC) and trimming on a per-batch basis before counts are consolidated.
+
+---
+
 ## 🗺️ Pipeline Workflow
 The flowchart below illustrates the sequential steps executed by the pipeline:
 
