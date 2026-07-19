@@ -13,9 +13,9 @@ The bioinformatics pipeline automates the preprocessing, alignment, and differen
 ---
 
 ## 🧬 Biological Context & Dataset
-This pipeline was designed to analyze small RNA-seq data from breast cancer patients and healthy controls. The cohort consists of three sample conditions:
-- **BRCA**: Patients diagnosed with breast cancer.
-- **non-BRCA**: Patients with hereditary breast cancer cases who do not carry BRCA mutations.
+This pipeline was designed to analyze miRNAs expression in breast cancer patients. The cohort consists of three sample conditions:
+- **BRCA**: Patients diagnosed with breast cancer who carry BRCA mutations.
+- **non-BRCA**: Patients diagnosed with breast cancer who do not carry BRCA mutations.
 - **Control**: Healthy individuals.
 
 ### Why 3 Run Folders?
@@ -127,7 +127,7 @@ Upon execution, the pipeline dynamically creates a `results/` directory containi
 - **Count Matrices**: Raw and merged counts under `results/counts/`.
 - **Differential Expression Analysis (DEA)**: Output plots (heatmap, MA-plots) and differential CSV files saved under `results/DEA/`.
 
-*Note: The `results/` folder is excluded from Git tracking to keep the repository lightweight. To view how the pipeline has been used in a biological context, please refer to the complete report below.*
+*Note: The `results/` folder is excluded from Git tracking to keep the repository lightweight. To view how the pipeline worked in our specific biological context, please refer to the complete report below.*
 
 ### Academic Material and Exam Reports
 * 📄 **Complete Report**: [Report.pdf](Report.pdf) — Theoretical details, biological methodology, and discussion of results.
